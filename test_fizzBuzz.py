@@ -6,7 +6,7 @@ class testFizz(unittest.TestCase):
         self.assertEqual(fizzBuzz.fizzBuzz(3), "Fizz")
 
 class testBuzz(unittest.TestCase):
-    def test_buzz(self):
+    def test_Buzz(self):
         self.assertEqual(fizzBuzz.fizzBuzz(5), "Buzz")
 
 class testFizzBuzz(unittest.TestCase):
